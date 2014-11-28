@@ -1,0 +1,67 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #26324D;
+	color: #E08235;
+	font-family: 'Palatino', 'Times New Roman', 'Times', 'serif';
+	font-size: 1.2em;
+}
+
+input[type=text], input[type=password] {
+	margin-bottom: 20px;
+	color: #FF8622;
+	background: #181D29;
+	padding: 5px;
+	width: 99%;
+	border-style: none;
+	font-family: 'Palatino', 'Times New Roman', 'Times', 'serif';
+	font-size: 1.2em;
+}
+
+input[type=submit] {
+	margin-bottom: 20px;
+	color: #FF8622;
+	background: #181D29;
+	padding: 5px;
+	width: 100px;
+	border-style: none;
+	font-family: 'Palatino', 'Times New Roman', 'Times', 'serif';
+	font-size: 1.2em;	
+}
+
+input[type=submit]:hover {
+	background: #2F4E96;
+}
+div#wrapper {
+	
+}
+
+div#header {
+	background: #181D29;
+	color: #FFD922;
+	padding: 20px;
+}
+
+a {
+	color: #E0C335;
+	text-decoration: none;
+}
+
+div.post {
+	background: #2F4E96;
+	padding: 10px;
+	margin: 10px;
+}
+
+div.post > h3 {
+	color: #FFD922;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #FFD922;
+}
+
+div.newpost {
+	background: #2C59C2;
+	padding: 10px;
+	margin: 10px;
+}
